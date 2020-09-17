@@ -1,0 +1,10 @@
+//program to print the sum of 2 numbers
+#include<stdio.h>
+int main(){
+	int a,b,sum;
+	printf("enter the value of a and b");
+	scanf("%d %d",&a, &b);
+	sum=a+b;
+	printf("\n the sum of two numbers is %d ",sum);
+	return 0;
+}
