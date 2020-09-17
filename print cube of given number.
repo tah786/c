@@ -1,0 +1,11 @@
+//program to print cube of given number.\
+#include<stdio.h>
+int main()
+{
+	int number;//int is a datatype of an integer which holds 4 bytes of data
+	printf("enter the number");
+	scanf("%d",&number);
+	printf("cube of given number is %d",number*number*number);
+	return 0;//0 is for successful 1 is unsuccessful return value
+
+}
