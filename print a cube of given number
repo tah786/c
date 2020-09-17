@@ -1,0 +1,12 @@
+// program to show the usage of printf() and scanf() function.
+
+#include<stdio.h> //includes standard input and output library functions
+ main()//entry point of a program
+{
+	char a[20];//char is a datatype 
+	printf("Enter the name");//printf() prints the given statement to the console 
+	scanf("%s",&a);//takes or reads input data from the console
+	printf("the name is %s",a);//%s is a format specifier for a string
+	return 0;
+	
+}
