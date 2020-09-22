@@ -1,0 +1,25 @@
+//program to show the usage of static variable means its scope is limit and it has a lifetime till the program ends we cannot re-initialize here. 
+//If you call this function many times, the local variable will print the same value for each function call, e.g, 11,11,11 and so on.
+// But the static variable will print the incremented value in each function call, e.g. 11, 12, 13 and so on.
+#include<stdio.h>
+#include<conio.h>
+void func(){
+	static int a=10;// it retain its value 
+	++a;
+	printf("\n %d",a);
+}
+int main()
+{
+	func();
+	func();
+	func();
+	return 0;
+	getch();
+}
+
+output:
+11
+12
+13
+
+
